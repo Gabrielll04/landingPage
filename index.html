@@ -1,145 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vigillatus</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="content-navBar">
-        <img src="./images/Logo.png" alt="Logo" class="logo" />
-        <nav class="menu">
-          <a href="#">Home</a>
-          <a href="#">Tecnologias</a>
-          <a href="#">Serviços</a>
-          <a href="#">Visão Computacional</a>
-        </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vigillatus </title>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="nav">
+      <img src="./images/logo.png" alt="Logo Vigillatus">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#tecnologia">Tecnologias</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#visao">Visão Computacional</a>
+      </nav>
+    </div>
+    <div class="hero" id="home">
+      <div class="hero-text">
+        <h1>Segurança em primeiro lugar, sempre</h1>
+        <p>Nosso aplicativo utiliza visão computacional para identificar, em
+          tempo real, a ausência de capacetes em ambientes industriais. Uma
+          solução inteligente para reforçar a segurança do trabalho,
+          prevenindo acidentes e salvando vidas.</p>
+        <button class="btn">Vamos lá!</button>
       </div>
-      <hr class="divider" />
-      <div class="organizeHeader">
-        <div class="textHeader">
-          <h1>Segurança em primeiro lugar, sempre</h1>
+      <img src="./images/funcionario.png" alt="Funcionário com capacete">
+    </div>
+  </header>
+
+  <section id="tecnologia">
+    <h2 class="section-title">Tecnologia a Serviço da Vida</h2>
+    <p style="text-align:center; max-width: 800px; margin: 10px auto 40px;">
+      A segurança no ambiente industrial é uma prioridade. Pensando nisso,
+      desenvolvemos um aplicativo que une tecnologia e proteção através da
+      visão computacional. Com ele, é possível identificar em tempo real a
+      ausência de capacetes, promovendo um ambiente mais seguro e consciente
+      para todos.</p>
+    <div class="features">
+      <div class="feature">
+        <div class="icon">👁️</div>
+        <h3>Visão Computacional</h3>
+        <p>O Vigillatus utiliza inteligência artificial e visão computacional
+          para monitorar áreas industriais e detectar automaticamente a falta
+          de capacetes. Essa tecnologia simula a visão humana com precisão.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">⚙️</div>
+        <h3>Facilidade</h3>
+        <p>A interface intuitiva permite que qualquer profissional consiga
+          utilizar o sistema com poucos cliques. É rápido de instalar, fácil
+          de configurar e pode ser integrado às câmeras já existentes na
+          fábrica.</p>
+      </div>
+      <div class="feature">
+        <div class="icon">🛡️</div>
+        <h3>Segurança</h3>
+        <p>Mais do que tecnologia, entregamos prevenção. A identificação
+          imediata de riscos contribui para reduzir acidentes e preservar
+          vidas, tornando o ambiente de trabalho mais seguro e eficiente.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="gray-section" id="servicos">
+    <section class="Serviços">
+      <h2 class="section-title">Soluções Inteligentes para um Ambiente Mais Seguro</h2>
+      <p style="text-align:center; max-width: 800px; margin: 0 auto 40px;">
+        Sistemas inteligentes estão cada vez mais presentes no dia a dia das
+        indústrias, automatizando processos e aumentando a eficiência.
+        Pensando nisso, desenvolvemos uma solução completa que utiliza visão
+        computacional para identificar, em tempo real, a ausência de
+        capacetes. Unimos tecnologia, mobilidade e gestão para transformar a
+        segurança do trabalho de forma prática e eficaz.
+      </p>
+      <div class="dual">
+        <img src="./images/iPhone.png" alt="Aplicativo Mobile">
+        <div class="text">
+          <h3>Aplicativo Mobile</h3>
           <p>
-            Nosso aplicativo utiliza visão computacional para identificar, em
-            tempo real, a ausência de capacetes em ambientes industriais. Uma
-            solução inteligente para reforçar a segurança do trabalho,
-            prevenindo acidentes e salvando vidas.
+            Com o app mobile, a segurança está na palma da sua mão.
+            Supervisores e responsáveis podem acompanhar alertas em tempo
+            real, receber notificações instantâneas sobre a ausência de
+            capacetes e visualizar registros diretamente pelo celular. Ideal
+            para quem precisa de mobilidade sem abrir mão do controle.
           </p>
-          <button class="orange-button">Vamos lá!</button>
         </div>
-        <img src="./images/funcionario.png" class="imageHeader" />
       </div>
-    </header>
-    <div class="body-content">
-      <section class="text-content">
-        <h1>Tecnologia a Serviço da Vida</h1>
-        <p>
-          A segurança no ambiente industrial é uma prioridade. Pensando nisso,
-          desenvolvemos um aplicativo que une tecnologia e proteção através da
-          visão computacional. Com ele, é possível identificar em tempo real a
-          ausência de capacetes, promovendo um ambiente mais seguro e consciente
-          para todos.
-        </p>
-      </section>
-      <section class="features">
-        <div class="feature">
-          <div class="icon">💧</div>
+      <div class="dual" style="margin-top: 60px;">
+        <div class="text">
+          <h3>Plataforma Web</h3>
+          <p>Na versão web, é possível acessar painéis completos com
+            análises, relatórios e registros históricos de ocorrências. Tudo
+            organizado para facilitar a tomada de decisões e o monitoramento
+            contínuo da segurança. Uma ferramenta robusta para gestão
+            eficiente e centralizada.</p>
+        </div>
+        <img src="./images/Notebook.png" alt="Plataforma Web">
+      </div>
+
+      <div class="dual" id="visao" style="margin-top: 200px;">
+        <img src="./images/ia.gif" alt="UA">
+        <div class="text">
           <h3>Visão Computacional</h3>
           <p>
-            O Vigillatus utiliza inteligência artificial e visão computacional
-            para monitorar áreas industriais e detectar automaticamente a falta
-            de capacetes. Essa tecnologia simula a visão humana com precisão.
-          </p>
-        </div>
-        <div class="feature">
-          <div class="icon">🌞</div>
-          <h3>Facilidade</h3>
-          <p>
-            A interface intuitiva permite que qualquer profissional consiga
-            utilizar o sistema com poucos cliques. É rápido de instalar, fácil
-            de configurar e pode ser integrado às câmeras já existentes na
-            fábrica.
-          </p>
-        </div>
-        <div class="feature">
-          <div class="icon">🧪</div>
-          <h3>Segurança</h3>
-          <p>
-            Mais do que tecnologia, entregamos prevenção. A identificação
-            imediata de riscos contribui para reduzir acidentes e preservar
-            vidas, tornando o ambiente de trabalho mais seguro e eficiente.
-          </p>
-        </div>
-      </section>
-      <section class="care-steps">
-        <section class="care-content">
-          <h2>Soluções Inteligentes para um Ambiente Mais Seguro</h2>
-          <p>
-            Sistemas inteligentes estão cada vez mais presentes no dia a dia das
-            indústrias, automatizando processos e aumentando a eficiência.
-            Pensando nisso, desenvolvemos uma solução completa que utiliza visão
-            computacional para identificar, em tempo real, a ausência de
-            capacetes. Unimos tecnologia, mobilidade e gestão para transformar a
-            segurança do trabalho de forma prática e eficaz.
-          </p>
-          <div class="step">
-            <img src="./images/iPhone.png" alt="Celulares com app" />
-            <div class="text">
-              <h3>Aplicativo Mobile</h3>
-              <p>
-                Com o app mobile, a segurança está na palma da sua mão.
-                Supervisores e responsáveis podem acompanhar alertas em tempo
-                real, receber notificações instantâneas sobre a ausência de
-                capacetes e visualizar registros diretamente pelo celular. Ideal
-                para quem precisa de mobilidade sem abrir mão do controle.
-              </p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="text">
-              <h3>Plataforma Web</h3>
-              <p>
-                Na versão web, é possível acessar painéis completos com
-                análises, relatórios e registros históricos de ocorrências. Tudo
-                organizado para facilitar a tomada de decisões e o monitoramento
-                contínuo da segurança. Uma ferramenta robusta para gestão
-                eficiente e centralizada.
-              </p>
-            </div>
-            <img src="./images/Notebook.png" alt="Laptop com app" />
-          </div>
-        </section>
-      </section>
-      <section class="text-content">
-        <h1>Visão Computacional</h1>
-        <p>
-          A visão computacional é uma tecnologia que permite que sistemas
-          “enxerguem” e interpretem imagens como um ser humano faria. No nosso
-          aplicativo, ela é utilizada para identificar automaticamente a
-          ausência de capacetes em ambientes industriais, atuando como uma
-          vigilância constante e inteligente. Uma inovação que transforma
-          câmeras comuns em ferramentas ativas de prevenção de acidentes.
-        </p>
-      </section>
-    </div>
-    <footer class="custom-footer">
-      <div class="footer-content">
-        <div class="text-content">
-          <div>
-            <p>Título</p>
-            <p>Título</p>
-            <p>Título</p>
-          </div>
-          <div>
-            <p>Título</p>
-            <p>Título</p>
-            <p>Título</p>
-          </div>
+            A visão computacional é como dar olhos inteligentes às máquinas.
+            Nosso sistema usa essa tecnologia para monitorar ambientes industriais 24 horas por dia,
+            identificando automaticamente quando alguém está sem capacete.
+            É como ter um supervisor de segurança sempre atento,
+            transformando câmeras comuns em guardiões contra acidentes.</p>
         </div>
       </div>
-      <hr class="divider" />
-    </footer>
-  </body>
+    </section>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <img src="./images/logo.png" alt="Logo Vigillatus" style="height:50px; margin-bottom:1rem;">
+        <p>Segurança em primeiro lugar, sempre.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Links Rápidos</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tecnologias</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Visão Computacional</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Redes Sociais</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Vigillatus. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+
 </html>
